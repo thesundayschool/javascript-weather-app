@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+}
+.city{
+    font-size: 30px;
+    color: red;
+}
+.current{
+    font-size: 30px;
+    color: red;
+}
