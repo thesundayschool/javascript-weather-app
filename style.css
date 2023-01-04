@@ -1,4 +1,5 @@
 *{
+    font-family: system-ui;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,19 +12,41 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    
 }
 .container{
     width: 500px;
     height: 500px;
-    border: 2px solid red;
+    text-align: center;
+    margin-top: 30px;
+    /* border: 2px solid red; */
 }
 .city{
     font-size: 30px;
-    color: red;
+    color: white;
+    margin: 30px 0;
 }
-.current{
-    font-size: 30px;
-    color: red;
+.temperature{
+    font-size: 140px;
+    color: white;
+    margin-top: 30px;
+}
+.weather, .min-max{
+    font-size: 34px;
+    color: white;
+    margin-top: 6px;
+}
+.serach{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.outer-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
 }
